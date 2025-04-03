@@ -1,0 +1,62 @@
+body {
+  margin: 0px;
+  font: 15px ‘Roboto’, Arial, Helvetica, sans-serif;
+  background-color: #4a90e2;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+}
+
+/* ctrl+/ */
+#kyrs,
+#govno_1,
+#govno_2,
+#enter {
+  width: 180px;
+  height: 100px;
+  background-color: #85b4ea;
+  border-color: black;
+  border-width: 0px 2px 2px 0px;
+  border-style: solid;
+  font-size: 36px;
+}
+
+#enter {
+  border-width: 0px 0px 2px 0px;
+}
+
+#logo {
+  width: 180px;
+  height: 100px;
+  background-color: #ffffff;
+  border-color: black;
+  border-width: 0px 0px 2px;
+  border-style: solid;
+  font-size: 36px;
+}
+
+#space {
+  width: 100%;
+  height: 100px;
+  background-color: #4a90e2;
+  border-color: black;
+  border-width: 0px 0px 2px;
+  border-style: solid;
+  font-size: 36px;
+}
+
+#kyrs,
+#govno_1,
+#govno_2,
+#enter,
+#logo {
+  min-width: 180px;
+}
+
+@import url("stylesheet.css");

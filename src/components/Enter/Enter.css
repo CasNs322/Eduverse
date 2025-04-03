@@ -1,0 +1,47 @@
+.forma2 {
+  position: absolute;
+  background-color: #85b4ea;
+  min-width: 967px;
+  min-height: 803px;
+  max-width: 967px;
+  max-height: 803px;
+  top: 14%;
+  left: 23%;
+}
+
+#title {
+  font-size: 54px;
+  font-weight: bold;
+  left: 29%;
+  top: 48%;
+  position: absolute;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  min-width: 566px;
+  max-width: 566px;
+  min-height: 270px;
+  max-height: 270px;
+  position: absolute;
+  top: 60%;
+  left: 20%;
+}
+input {
+  border-color: black;
+  border-width: 0px 0px 2px 0px;
+  background-color: #85b4ea00;
+  min-width: 566px;
+  max-width: 566px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+::placeholder {
+  color: rgb(46, 46, 46);
+}
+input [type="checkbox"] {
+  display: none;
+}
