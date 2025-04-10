@@ -38,7 +38,7 @@ export function Enter() {
             <button type="button">Забыли пароль?</button>
           </div>
           <div className="submit">
-            <button type="submit">Авторизация</button>
+            <button type="submit" className="submit">Авторизация</button>
           </div>
         </form>
       </div>

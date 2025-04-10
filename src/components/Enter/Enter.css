@@ -45,3 +45,20 @@ input {
 input [type="checkbox"] {
   display: none;
 }
+
+
+.submit {
+  border-radius: 1000px;
+  border-color: #00000000;
+  border-width: 0px;
+  background-color: #4A90E2;
+  max-width: 230px;
+  max-height: 73px;
+  min-width: 230px;
+  min-height: 73px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  position: absolute;
+  left: 0%;
+}

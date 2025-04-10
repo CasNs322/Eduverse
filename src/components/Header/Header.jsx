@@ -6,7 +6,7 @@ export function Header() {
     <header>
       <div id="menu">
         <button id="logo">
-          <img src={Logo}></img>
+          <img src={Logo} width={110}></img>
         </button>
         <button id="kyrs">
           <h1>Курсы</h1>
