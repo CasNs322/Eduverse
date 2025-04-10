@@ -1,5 +1,6 @@
 import "./Header.css";
 import Logo from "../../assets/logo.png";
+import { Name } from "../Name/Name";
 
 export function Header() {
   return (
@@ -24,4 +25,5 @@ export function Header() {
       </div>
     </header>
   );
+  <Name></Name>;
 }
