@@ -28,6 +28,7 @@ form {
   top: 60%;
   left: 20%;
 }
+
 input {
   border-color: black;
   border-width: 0px 0px 2px 0px;
@@ -42,6 +43,7 @@ input {
 ::placeholder {
   color: rgb(46, 46, 46);
 }
+
 input [type="checkbox"] {
   display: none;
 }
@@ -96,6 +98,6 @@ input[type="checkbox"] {
   top: 51%;
 }
 
-p{
+p {
   margin: 5px;
 }

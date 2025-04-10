@@ -27,19 +27,20 @@ export function Enter() {
             />
           </div>
           <div className="zapomnit">
-
-              <input type="checkbox" name="zapomni" id="zapomni" />
-
+            <input type="checkbox" name="zapomni" id="zapomni" />
 
             <div className="info">
               <p>Запомнить меня</p>
             </div>
           </div>
 
-            <button type="button" className="zabl">Забыли пароль?</button>
+          <button type="button" className="zabl">
+            Забыли пароль?
+          </button>
 
-            <button type="submit" className="submit">Авторизация</button>
-          
+          <button type="submit" className="submit">
+            Авторизация
+          </button>
         </form>
       </div>
     </div>
