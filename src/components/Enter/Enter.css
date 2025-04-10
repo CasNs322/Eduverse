@@ -36,7 +36,7 @@ input {
   max-width: 566px;
   font-size: 20px;
   padding-left: 10px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 ::placeholder {
@@ -75,4 +75,27 @@ input [type="checkbox"] {
   position: absolute;
   top: 52%;
   left: 78%;
+}
+
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  /* position: absolute;
+  left: 0%;
+  top: 44%; */
+  min-width: 25px;
+  min-height: 25px;
+  max-width: 25px;
+  max-height: 25px;
+  margin: 0px;
+}
+
+.zapomnit {
+  display: flex;
+  position: absolute;
+  top: 51%;
+}
+
+p{
+  margin: 5px;
 }

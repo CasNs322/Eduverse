@@ -27,9 +27,10 @@ export function Enter() {
             />
           </div>
           <div className="zapomnit">
-            <div className="checkbox">
+
               <input type="checkbox" name="zapomni" id="zapomni" />
-            </div>
+
+
             <div className="info">
               <p>Запомнить меня</p>
             </div>
