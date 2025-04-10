@@ -34,12 +34,11 @@ export function Enter() {
               <p>Запомнить меня</p>
             </div>
           </div>
-          <div className="zabl">
-            <button type="button">Забыли пароль?</button>
-          </div>
-          <div className="submit">
+
+            <button type="button" className="zabl">Забыли пароль?</button>
+
             <button type="submit" className="submit">Авторизация</button>
-          </div>
+          
         </form>
       </div>
     </div>
