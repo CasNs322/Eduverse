@@ -1,3 +1,5 @@
+@import url("stylesheet.css");
+
 body {
   margin: 0px;
   font: 15px ‘Roboto’, Arial, Helvetica, sans-serif;
@@ -58,8 +60,4 @@ h1 {
 #enter,
 #logo {
   min-width: 180px;
-
 }
-
-
-@import url("stylesheet.css");

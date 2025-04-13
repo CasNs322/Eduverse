@@ -1,4 +1,3 @@
-import "./components/App.css";
 import { Header } from "./components/Header/Header";
 import { Enter } from "./components/Enter/Enter";
 
@@ -12,3 +11,5 @@ function App() {
 }
 
 export default App;
+
+// npm i
