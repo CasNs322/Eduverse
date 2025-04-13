@@ -13,12 +13,14 @@ h1 {
 #menu {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ctrl+/ */
 #kyrs,
-#govno_1,
-#govno_2,
+#favourites,
+#help,
 #enter {
   width: 180px;
   height: 100px;
@@ -27,6 +29,9 @@ h1 {
   border-width: 0px 2px 2px 0px;
   border-style: solid;
   font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #enter {
@@ -34,7 +39,7 @@ h1 {
 }
 
 #logo {
-  width: 180px;
+  width: 250px;
   height: 100px;
   background-color: #ffffff;
   border-color: black;
@@ -42,6 +47,7 @@ h1 {
   border-style: solid;
   font-size: 36px;
   padding: 0px;
+  min-width: 250px;
 }
 
 #space {
@@ -55,9 +61,42 @@ h1 {
 }
 
 #kyrs,
-#govno_1,
-#govno_2,
-#enter,
-#logo {
+#favourites,
+#help,
+#enter {
   min-width: 180px;
+}
+
+#favourites,
+#help {
+  font-size: 34px;
+}
+
+.name {
+  display: flex;
+}
+
+.name-name {
+  display: flex;
+  background-color: #85b4ea;
+  border-radius: 20px;
+  min-width: 790px;
+  min-height: 86px;
+  max-width: 790px;
+  max-height: 86px;
+  margin-right: 10px;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.name-exit {
+  border-radius: 20px;
+  background-color: #85b4ea;
+  min-width: 86px;
+  min-height: 86px;
+  max-width: 86px;
+  max-height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

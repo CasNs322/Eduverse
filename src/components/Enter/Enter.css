@@ -6,7 +6,7 @@
   max-width: 967px;
   max-height: 803px;
   top: 14%;
-  left: 23%;
+  left: 24%;
 }
 
 #title {
@@ -48,12 +48,11 @@ input [type="checkbox"] {
   display: none;
 }
 
-
 .submit {
   border-radius: 1000px;
   border-color: #00000000;
   border-width: 0px;
-  background-color: #4A90E2;
+  background-color: #4a90e2;
   max-width: 230px;
   max-height: 73px;
   min-width: 230px;
@@ -80,16 +79,17 @@ input [type="checkbox"] {
 }
 
 input[type="checkbox"] {
-  width: 25px;
-  height: 25px;
+  width: 26px;
+  height: 26px;
   /* position: absolute;
   left: 0%;
   top: 44%; */
-  min-width: 25px;
-  min-height: 25px;
-  max-width: 25px;
-  max-height: 25px;
+  min-width: 26px;
+  min-height: 26px;
+  max-width: 26px;
+  max-height: 26px;
   margin: 0px;
+  border: #000000 2px solid;
 }
 
 .zapomnit {

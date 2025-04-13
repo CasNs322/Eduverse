@@ -1,5 +1,7 @@
 import "./Header.css";
 import Logo from "../../assets/logo.png";
+import NameLogo from "../../assets/namelogo.png";
+import NameExit from "../../assets/nameexit.png";
 
 export function Header() {
   return (
@@ -12,29 +14,25 @@ export function Header() {
         <button id="kyrs">
           <h1>Курсы</h1>
         </button>
-        <button id="govno_1">
-          <h1>asd</h1>
-        </button>
-        <button id="govno_2">
-          <h1>asd</h1>
-        </button>
+        <button id="favourites">Избранное</button>
+        <button id="help">Помощь</button>
         <button id="enter">
           <h1>Вход</h1>
         </button>
-        <button id="space"></button>
-      </div>
-
-      {/* <div className="name">
-        <div className="name-name">
-          <div className="name-name-logo">
-            <img src={NameLogo} width={0} height={0} />
+        <button id="space">
+          <div className="name">
+            <div className="name-name">
+              <div className="name-name-logo">
+                <img src={NameLogo} />
+              </div>
+              <div className="name-name-name">Ботников Евгений Вадимович</div>
+            </div>
+            <div className="name-exit">
+              <img src={NameExit} />
+            </div>
           </div>
-          <div className="name-name-name">Ботников Евгений Вадимович</div>
-        </div>
-        <div className="name-exit">
-          <img src={NameExit} width={0} height={0} />
-        </div>
-      </div>*/}
+        </button>
+      </div>
     </header>
   );
 }
