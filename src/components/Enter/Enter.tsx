@@ -1,5 +1,6 @@
 import "./Enter.css";
 import Image from "../../assets/image.png";
+import { Link } from "react-router";
 
 export function Enter() {
   return (
@@ -38,9 +39,11 @@ export function Enter() {
             Забыли пароль?
           </button>
 
-          <button type="submit" className="submit">
-            Авторизация
-          </button>
+          <Link to="/courses">
+            <button type="submit" className="submit">
+              Авторизация
+            </button>
+          </Link>
         </form>
       </div>
     </div>
