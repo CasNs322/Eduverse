@@ -2,6 +2,7 @@ import "./Header.css";
 import Logo from "../../assets/logo.png";
 import NameLogo from "../../assets/namelogo.png";
 import NameExit from "../../assets/nameexit.png";
+import { Link } from "react-router";
 
 export function Header() {
   return (
@@ -14,11 +15,17 @@ export function Header() {
         <button id="kyrs">
           <h1>Курсы</h1>
         </button>
-        <button id="favourites">Избранное</button>
-        <button id="help">Помощь</button>
-        <button id="enter">
-          <h1>Вход</h1>
-        </button>
+        <Link to="/likes">
+          <button id="favourites">Избранное</button>
+        </Link>
+        <Link to="/help">
+          <button id="help">Помощь</button>
+        </Link>
+        <Link to="/enter">
+          <button id="enter">
+            <h1>Вход</h1>
+          </button>
+        </Link>
         <button id="space">
           <div className="name">
             <div className="name-name">
