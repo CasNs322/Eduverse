@@ -1,3 +1,23 @@
+.Help {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .help {
-  background-color: aqua;
+  background-color: #85b4ea;
+  min-width: 976px;
+  min-height: 545px;
+  max-width: 976px;
+  max-height: 545px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#help {
+  display: flex;
+  align-items: center;
+  justify-items: center;
 }

@@ -4,6 +4,7 @@ body {
   margin: 0px;
   font: 15px ‘Roboto’, Arial, Helvetica, sans-serif;
   background-color: #4a90e2;
+  overflow-x: hidden;
 }
 
 h1 {

@@ -17,7 +17,7 @@
   position: absolute;
 }
 
-form {
+#forma {
   display: flex;
   flex-direction: column;
   min-width: 566px;
@@ -29,7 +29,8 @@ form {
   left: 20%;
 }
 
-input {
+#UserName,
+#Password {
   border-color: black;
   border-width: 0px 0px 2px 0px;
   background-color: #85b4ea00;

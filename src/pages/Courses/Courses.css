@@ -7,4 +7,9 @@
   position: absolute;
   top: 100px;
   left: 0px;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }

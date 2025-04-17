@@ -10,7 +10,7 @@ export function Enter() {
       </div>
       <div id="title">Вход в систему</div>
       <div className="forma">
-        <form action="">
+        <form action="" id="forma">
           <div className="username">
             <input
               type="text"
