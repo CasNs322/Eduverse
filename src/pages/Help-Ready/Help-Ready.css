@@ -1,0 +1,50 @@
+.Help {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.help {
+  background-color: #85b4ea;
+  min-width: 976px;
+  min-height: 545px;
+  max-width: 976px;
+  max-height: 545px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 27%;
+}
+
+.title-help {
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 8%;
+}
+
+.subtitle-ready {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
+
+#button-ready {
+  min-width: 170px;
+  min-height: 50px;
+  max-width: 170px;
+  max-height: 50px;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  border: #00000000 0px solid;
+  background-color: #4a90e2;
+  color: white;
+}

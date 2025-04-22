@@ -8,6 +8,7 @@ import AppLayout from "./pages/AppLayout";
 import Help from "./pages/Help/Help";
 import { Enter } from "./components/Enter/Enter";
 import Likes from "./pages/Likes/Likes";
+import Help_Ready from "./pages/Help-Ready/Help-Ready";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
           <Route path="help" element={<Help />} />
           <Route path="enter" element={<Enter />} />
           <Route path="likes" element={<Likes />} />
+          <Route path="help-ready" element={<Help_Ready />} />
         </Route>
       </Routes>
     </BrowserRouter>

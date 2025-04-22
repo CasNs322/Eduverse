@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import "./Help.css";
 
 export default function Help() {
@@ -17,9 +18,11 @@ export default function Help() {
             <button type="reset" className="reset-help">
               Сбросить
             </button>
-            <button type="submit" className="submit-help">
-              Отправить
-            </button>
+            <Link to="/help-ready">
+              <button type="submit" className="submit-help">
+                Отправить
+              </button>
+            </Link>
           </div>
         </form>
       </div>
