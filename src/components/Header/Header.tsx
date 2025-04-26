@@ -12,9 +12,11 @@ export function Header() {
         <button id="logo">
           <img src={Logo} width={110}></img>
         </button>
-        <button id="kyrs">
-          <h1>Курсы</h1>
-        </button>
+        <Link to="/courses">
+          <button id="kyrs">
+            <h1>Курсы</h1>
+          </button>
+        </Link>
         <Link to="/likes">
           <button id="favourites">Избранное</button>
         </Link>

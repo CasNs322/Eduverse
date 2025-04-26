@@ -1,7 +1,7 @@
 import MindPoint1 from "../../assets/mindpoint1.png";
-import "./Courses.css";
+import "./Figma.css";
 
-export default function Courses() {
+export default function Figma() {
   return (
     <div className="right-menu">
       <div className="name-courses">
@@ -14,7 +14,7 @@ export default function Courses() {
         <div className="first-point">
           <img src={MindPoint1} />
         </div>
-        <div className="first-topic_name">Вводное заsнятие</div>
+        <div className="first-topic_name">Вводное занятие</div>
       </div>
     </div>
   );

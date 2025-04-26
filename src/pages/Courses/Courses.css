@@ -1,15 +1,45 @@
-.right-menu {
-  min-width: 243px;
-  max-width: 243px;
-  min-height: 1880px;
-  background-color: #85b4ea;
-  margin: 0px;
-  position: absolute;
-  top: 100px;
-  left: 0px;
-  overflow-x: hidden;
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-::-webkit-scrollbar {
-  width: 0px;
+.coursestitle {
+  font-weight: 600;
+  font-size: 40px;
+  margin: 50px;
+}
+
+.strok1_courses,
+.strok2_courses {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+.kvantym {
+  min-width: 220px;
+  min-height: 300px;
+  max-width: 220px;
+  max-height: 300px;
+  background-color: #85b4ea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.coursesimg {
+  margin: 10px;
+}
+
+.coursestext {
+  margin: 15px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.coursestext2 {
+  margin: 1px;
+  font-size: 32px;
+  text-align: center;
 }

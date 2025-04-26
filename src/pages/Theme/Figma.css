@@ -1,0 +1,15 @@
+.right-menu {
+  min-width: 243px;
+  max-width: 243px;
+  min-height: 1880px;
+  background-color: #85b4ea;
+  margin: 0px;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
