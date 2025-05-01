@@ -15,6 +15,7 @@ import Math from "../../assets/courses/math.png";
 import Chess from "../../assets/courses/chess.png";
 import English from "../../assets/courses/english.png";
 import Eco from "../../assets/courses/eco.png";
+import { Link } from "react-router";
 
 export default function Courses() {
   return (
@@ -33,12 +34,14 @@ export default function Courses() {
           </div>
           <div className="coursestext">Аэроквантум</div>
         </div>
-        <div className="kvantym">
-          <div className="coursesimg">
-            <img src={IT}></img>
+        <Link to="/years">
+          <div className="kvantym">
+            <div className="coursesimg">
+              <img src={IT}></img>
+            </div>
+            <div className="coursestext">IT-квантум</div>
           </div>
-          <div className="coursestext">IT-квантум</div>
-        </div>
+        </Link>
         <div className="kvantym">
           <div className="coursesimg">
             <img src={Promdis}></img>

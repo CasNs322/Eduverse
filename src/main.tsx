@@ -10,6 +10,8 @@ import { Enter } from "./components/Enter/Enter";
 import Likes from "./pages/Likes/Likes";
 import Help_Ready from "./pages/Help-Ready/Help-Ready";
 import Courses from "./pages/Courses/Courses";
+import Years from "./pages/Years/Years";
+import Direction from "./pages/Direction/Direction";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
@@ -23,6 +25,8 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
           <Route path="likes" element={<Likes />} />
           <Route path="help-ready" element={<Help_Ready />} />
           <Route path="figma" element={<Figma />} />
+          <Route path="years" element={<Years />} />
+          <Route path="direction" element={<Direction />} />
         </Route>
       </Routes>
     </BrowserRouter>
