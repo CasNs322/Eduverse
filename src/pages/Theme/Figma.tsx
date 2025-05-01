@@ -1,20 +1,38 @@
-import MindPoint1 from "../../assets/mindpoint1.png";
+import Point_in_progress from "../../assets/points/point_in_progress.png";
+import Point_lock from "../../assets/points/point_lock.png";
+import Endpoint_lock from "../../assets/points/endpoint_lock.png";
 import "./Figma.css";
 
 export default function Figma() {
   return (
     <div className="right-menu">
-      <div className="name-courses">
-        <h1>Web</h1>
-      </div>
-      <div className="menu-chapter">
-        <h2>Введение</h2>
-      </div>
-      <div className="first-topic">
-        <div className="first-point">
-          <img src={MindPoint1} />
+      <div className="name-courses">Web</div>
+      <div className="menu-chapter">Figma</div>
+      <div className="mappoint-themes">
+        <div className="mappoint">
+          <div className="point">
+            <img src={Point_in_progress} />
+          </div>
+          <div className="point">
+            <img src={Point_lock} />
+          </div>
+          <div className="point">
+            <img src={Point_lock} />
+          </div>
+          <div className="point">
+            <img src={Point_lock} />
+          </div>
+          <div className="point">
+            <img src={Endpoint_lock} />
+          </div>
         </div>
-        <div className="first-topic_name">Вводное занятие</div>
+        <div className="themes">
+          <div className="theme">Знакомство с программой</div>
+          <div className="theme">Составление макета сайта</div>
+          <div className="theme">Составление макета сайта</div>
+          <div className="theme">Составление макета сайта</div>
+          <div className="theme">Итоговый кейс</div>
+        </div>
       </div>
     </div>
   );
