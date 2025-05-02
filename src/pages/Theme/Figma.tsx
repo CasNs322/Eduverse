@@ -3,6 +3,9 @@ import Point_lock from "../../assets/points/point_lock.png";
 import Endpoint_lock from "../../assets/points/endpoint_lock.png";
 import "./Figma.css";
 import FigmaData from "../../content.json";
+import Block1_img from "../../assets/content/Figma/first/1.jpg";
+import Block2_img from "../../assets/content/Figma/first/2.jpg";
+import { Link } from "react-router";
 
 export default function Figma() {
   return (
@@ -39,28 +42,54 @@ export default function Figma() {
       </div>
       <div className="content">
         <div className="content_title">
-          <div className="">{FigmaData.lessons.figma.title}</div>
-          <div className=""></div>
+          <div className="title_figma">
+            {FigmaData.lessons.figma.first.title}
+          </div>
+          <div className="like"></div>
         </div>
         <div className="content_video">
           <iframe
             width="854"
             height="480"
-            src={FigmaData.lessons.figma.video}
+            src={FigmaData.lessons.figma.first.video}
             title="Основы Figma за 8 минут | Курс по работе с Фигма 2022"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
         </div>
         <div className="block1">
-          <div className="block1-text">
-            {FigmaData.lessons.figma.paragraf_1}
+          <div
+            className="block1-text"
+            dangerouslySetInnerHTML={{
+              __html: FigmaData.lessons.figma.first.paragraf_1,
+            }}
+          ></div>
+          <div className="block1-">
+            <img src={Block1_img} className="block1-img" />
           </div>
-          <div className="block1-img"></div>
         </div>
-        <div className="block1"></div>
         <div className="block1">
-          <div className="block1-img"></div>
-          <div className="block1-text"></div>
+          <div
+            className="block1-text"
+            dangerouslySetInnerHTML={{
+              __html: FigmaData.lessons.figma.first.paragraf_2,
+            }}
+          ></div>
+        </div>
+        <div className="block1">
+          <div className="block1-">
+            <img src={Block2_img} className="block1-img" />
+          </div>
+          <div
+            className="block1-text"
+            dangerouslySetInnerHTML={{
+              __html: FigmaData.lessons.figma.first.paragraf_3,
+            }}
+          ></div>
+        </div>
+        <div className="buttons">
+          <Link to="">
+            <div className="button-next">Далее</div>
+          </Link>
         </div>
       </div>
     </div>

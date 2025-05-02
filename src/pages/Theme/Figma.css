@@ -6,7 +6,6 @@
 .right-menu {
   min-width: 240px;
   max-width: 240px;
-  min-height: 1880px;
   background-color: #85b4ea;
   margin: 0px;
   /* position: absolute; */
@@ -53,5 +52,61 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 25px;
+  min-width: 1620px;
+}
+
+.title_figma {
+  font-size: 40px;
+  font-weight: 800;
   margin: 10px;
+}
+
+.content_video {
+  margin-bottom: 10px;
+}
+
+.block1 {
+  min-width: 1470px;
+  min-height: 313px;
+  max-width: 1470px;
+  max-height: 313px;
+  background-color: #85b4ea;
+  display: flex;
+  justify-items: center;
+}
+
+.block1-text {
+  min-width: 916px;
+  min-height: 313px;
+  max-width: 916px;
+  max-height: 313px;
+  padding: 10px;
+  font-size: 16px;
+  text-indent: 3%;
+  word-spacing: 2px;
+}
+
+.block1-img {
+  width: 528px;
+  height: 307px;
+  border: black solid 3px;
+  border-radius: 5px;
+}
+
+.button-next {
+  background-color: #85b4ea;
+  border-radius: 1000px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  min-width: 150px;
+  min-height: 86px;
+  max-width: 150px;
+  max-height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 34px;
+  margin-left: 1300px;
 }
