@@ -7,6 +7,249 @@
         "paragraf_1": "<b>Фигма (Figma)</b> — это облачный инструмент для дизайна интерфейсов и прототипирования, который стал популярным среди UI/UX-дизайнеров благодаря своей простоте, функциональности и возможностям для совместной работы.<p> Вот основные особенности Figma: </p><p><b>1</b> Редактирование в реальном времени: </p><p>Несколько пользователей могут работать над одним файлом одновременно, что идеально подходит для командной работы. </p><p>Можно оставлять комментарии и feedback прямо в проекте. </p><p><b>2 </b>Облачная платформа: </p><p>Все файлы хранятся в облаке, поэтому доступ к ним можно получить с любого устройства с интернетом. </p><p>Нет необходимости вручную управлять версиями файлов. </p><p><b>3</b> Кроссплатформенность: </p><p>Работает на Windows, macOS и Linux через браузер или десктопное приложение.",
         "paragraf_2": "<b>4</b> Дизайн и прототипирование:<p> Можно создавать как статичные дизайны, так и интерактивные прототипы с анимациями и переходами.</p><p>Компоненты и стили:</p><p><b>5</b> Возможность создавать переиспользуемые компоненты (например, кнопки, иконки) и стили (цвета, шрифты), что обеспечивает единообразие дизайна.</p><p>Изменения в основном компоненте автоматически применяются ко всем его копиям.</p><p><b>6</b> Плагины и интеграции:</p><p>Большая библиотека плагинов для расширения функциональности (иконки, графики, проверка доступности).</p><p>Интеграция с такими инструментами, как Slack, Jira, Zeplin.</p><p><b>7</b> Передача разработчикам:</p><p>Разработчики могут просматривать дизайн, получать CSS-код и экспортировать ресурсы прямо из Figma.</p><p><b>8 </b>Бесплатный и платный тарифы:</p><p>Бесплатный тариф для индивидуальных пользователей с ограниченным количеством проектов.</p><p>Платные тарифы (Professional и Organization) предлагают дополнительные функции, такие как расширенное управление командами и проектами.",
         "paragraf_3": "<b>Преимущества Figma:</b><p>Доступность: </p><p>Бесплатный тариф подходит для большинства индивидуальных дизайнеров.</p><p>Удобство: </p><p> Все в одном месте — от дизайна до прототипов и передачи разработчикам.</p><p>Скорость: </p><p>Облачная платформа позволяет быстро начать работу без установки дополнительного ПО.</p><p><b>Недостатки:</b></p><p>Зависимость от интернета: </p><p>Для работы требуется стабильное интернет-соединение.</p><p>Ограничения бесплатного тарифа: </p><p>Для больших команд или проектов может потребоваться платный тариф."
+      },
+      "second": {
+        "title": "Создание шапки сайта",
+        "video": "https://www.youtube.com/watch?v=rloxBQtCeWI",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "third": {
+        "title": "Дизайн наполнения сайта",
+        "video": "https://www.youtube.com/watch?v=lP41j8Go14c",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "fourth": {
+        "title": "Создание подвала сайта",
+        "video": "https://www.youtube.com/watch?v=jnsDPeWwIwM",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "fifth": {
+        "title": "Создание полноценного макета сайта",
+        "video": "https://www.youtube.com/watch?v=kzMcgl_hJ64",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      }
+    },
+    "frontend": {
+      "first": {
+        "title": "Верстка, оформление и функционал сайтов",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "GitHub": {
+        "title": "Работа с GitHub",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "HTML": {
+        "First": {
+          "title": "",
+          "video": "",
+          "paragraf_1": "",
+          "paragraf_2": "",
+          "paragraf_3": ""
+        },
+        "second": {
+          "title": "",
+          "video": "",
+          "paragraf_1": "",
+          "paragraf_2": "",
+          "paragraf_3": ""
+        },
+        "third": {
+          "title": "",
+          "video": "",
+          "paragraf_1": "",
+          "paragraf_2": "",
+          "paragraf_3": ""
+        },
+        "fourth": {
+          "title": "",
+          "video": "",
+          "paragraf_1": "",
+          "paragraf_2": "",
+          "paragraf_3": ""
+        }
+      },
+      "CSS": {
+        "First": {
+          "title": "",
+          "video": "",
+          "paragraf_1": "",
+          "paragraf_2": "",
+          "paragraf_3": ""
+        },
+        "second": {
+          "title": "",
+          "video": "",
+          "paragraf_1": "",
+          "paragraf_2": "",
+          "paragraf_3": ""
+        },
+        "third": {
+          "title": "",
+          "video": "",
+          "paragraf_1": "",
+          "paragraf_2": "",
+          "paragraf_3": ""
+        },
+        "fourth": {
+          "title": "",
+          "video": "",
+          "paragraf_1": "",
+          "paragraf_2": "",
+          "paragraf_3": ""
+        }
+      },
+      "Case": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      }
+    },
+    "JavaScript": {
+      "First": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "second": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "third": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "fourth": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "fifth": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "sixth": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      }
+    },
+    "SuperCSS": {
+      "First": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "second": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "third": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "fourth": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "fifth": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "sixth": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      }
+    },
+    "freelance": {
+      "First": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "second": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "third": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "fourth": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "fifth": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
+      },
+      "sixth": {
+        "title": "",
+        "video": "",
+        "paragraf_1": "",
+        "paragraf_2": "",
+        "paragraf_3": ""
       }
     }
   }

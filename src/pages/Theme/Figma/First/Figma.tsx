@@ -1,10 +1,10 @@
-import Point_in_progress from "../../../assets/points/point_in_progress.png";
-import Point_lock from "../../../assets/points/point_lock.png";
-import Endpoint_lock from "../../../assets/points/endpoint_lock.png";
+import Point_in_progress from "../../../../assets/points/point_in_progress.png";
+import Point_lock from "../../../../assets/points/point_lock.png";
+import Endpoint_lock from "../../../../assets/points/endpoint_lock.png";
 import "./Figma.css";
-import FigmaData from "../../../content.json";
-import Block1_img from "../../../assets/content/Figma/first/1.jpg";
-import Block2_img from "../../../assets/content/Figma/first/2.jpg";
+import FigmaData from "../../../../content.json";
+import Block1_img from "../../../../assets/content/Figma/first/1.jpg";
+import Block2_img from "../../../../assets/content/Figma/first/2.jpg";
 import { Link } from "react-router";
 
 export default function Figma() {
