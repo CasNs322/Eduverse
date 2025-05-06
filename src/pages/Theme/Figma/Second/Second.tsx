@@ -1,14 +1,14 @@
 import Point_in_progress from "../../../../assets/points/point_in_progress.png";
 import Point_lock from "../../../../assets/points/point_lock.png";
 import Endpoint_lock from "../../../../assets/points/endpoint_lock.png";
-import "./Figma.css";
+import "./Second.css";
 import FigmaData from "../../../../content.json";
 import Block1_img from "../../../../assets/content/Figma/first/1.jpg";
 import Block2_img from "../../../../assets/content/Figma/first/2.jpg";
 import { Link } from "react-router";
-const figmaDataFirst = FigmaData.lessons.figma.first;
+const figmaDataSecond = FigmaData.lessons.figma.second;
 
-export default function Figma() {
+export default function Figma_second() {
   return (
     <div className="main">
       <div className="right-menu">
@@ -43,14 +43,14 @@ export default function Figma() {
       </div>
       <div className="content">
         <div className="content_title">
-          <div className="title_figma">{figmaDataFirst.title}</div>
+          <div className="title_figma">{figmaDataSecond.title}</div>
           <div className="like"></div>
         </div>
         <div className="content_video">
           <iframe
             width="854"
             height="480"
-            src={figmaDataFirst.video}
+            src={figmaDataSecond.video}
             title="Основы Figma за 8 минут | Курс по работе с Фигма 2022"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
@@ -59,7 +59,7 @@ export default function Figma() {
           <div
             className="block1-text"
             dangerouslySetInnerHTML={{
-              __html: figmaDataFirst.paragraf_1,
+              __html: figmaDataSecond.paragraf_1,
             }}
           ></div>
           <div className="block1-">
@@ -70,7 +70,7 @@ export default function Figma() {
           <div
             className="block2-text"
             dangerouslySetInnerHTML={{
-              __html: figmaDataFirst.paragraf_2,
+              __html: figmaDataSecond.paragraf_2,
             }}
           ></div>
         </div>
@@ -81,12 +81,12 @@ export default function Figma() {
           <div
             className="block1-text"
             dangerouslySetInnerHTML={{
-              __html: figmaDataFirst.paragraf_3,
+              __html: figmaDataSecond.paragraf_3,
             }}
           ></div>
         </div>
         <div className="buttons">
-          <Link to="../figma_second">
+          <Link to="">
             <div className="button-next">Далее</div>
           </Link>
         </div>

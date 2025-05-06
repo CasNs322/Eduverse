@@ -12,6 +12,7 @@ import Help_Ready from "./pages/Help-Ready/Help-Ready";
 import Courses from "./pages/Courses/Courses";
 import Years from "./pages/Years/Years";
 import Direction from "./pages/Direction/Direction";
+import Figma_second from "./pages/Theme/Figma/Second/Second";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
@@ -27,6 +28,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
           <Route path="figma" element={<Figma />} />
           <Route path="years" element={<Years />} />
           <Route path="direction" element={<Direction />} />
+          <Route path="figma_second" element={<Figma_second />} />
         </Route>
       </Routes>
     </BrowserRouter>
