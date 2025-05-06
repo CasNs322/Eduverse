@@ -87,6 +87,17 @@
   word-spacing: 2px;
 }
 
+.block2-text {
+  min-width: 1470px;
+  min-height: 313px;
+  max-width: 1470px;
+  max-height: 313px;
+  padding: 0px;
+  font-size: 16px;
+  text-indent: 3%;
+  word-spacing: 2px;
+}
+
 .block1-img {
   width: 528px;
   height: 307px;

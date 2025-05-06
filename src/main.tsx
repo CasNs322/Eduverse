@@ -3,7 +3,7 @@ import App from "./App";
 import ReactDOM from "react-dom/client";
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router";
-import Figma from "./pages/Theme/Figma";
+import Figma from "./pages/Theme/Figma/Figma";
 import AppLayout from "./pages/AppLayout";
 import Help from "./pages/Help/Help";
 import { Enter } from "./components/Enter/Enter";
