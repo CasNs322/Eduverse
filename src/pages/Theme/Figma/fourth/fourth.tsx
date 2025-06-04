@@ -2,14 +2,14 @@ import Point_in_progress from "../../../../assets/points/point_in_progress.png";
 import Point_lock from "../../../../assets/points/point_lock.png";
 import Point_ready from "../../../../assets/points/point_ready.png";
 import Endpoint_lock from "../../../../assets/points/endpoint_lock.png";
-import "./Trird.css";
+import "./fourth.css";
 import FigmaData from "../../../../content.json";
 import Block1_img from "../../../../assets/content/Figma/third/1.png";
 import Block2_img from "../../../../assets/content/Figma/third/2.png";
 import { Link } from "react-router";
-const figmaDataSecond = FigmaData.lessons.figma.third;
+const figmaDataSecond = FigmaData.lessons.figma.fourth;
 
-export default function Figma_third() {
+export default function Figma_fourth() {
   return (
     <div className="main">
       <div className="right-menu">
@@ -24,10 +24,10 @@ export default function Figma_third() {
               <img src={Point_ready} />
             </div>
             <div className="point">
-              <img src={Point_in_progress} />
+              <img src={Point_ready} />
             </div>
             <div className="point">
-              <img src={Point_lock} />
+              <img src={Point_in_progress} />
             </div>
             <div className="point">
               <img src={Endpoint_lock} />
@@ -87,7 +87,7 @@ export default function Figma_third() {
           ></div>
         </div>
         <div className="buttons">
-          <Link to="../figma_fourth">
+          <Link to="../figma_fifth">
             <div className="button-next">Далее</div>
           </Link>
         </div>
