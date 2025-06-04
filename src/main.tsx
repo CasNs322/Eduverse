@@ -13,6 +13,7 @@ import Courses from "./pages/Courses/Courses";
 import Years from "./pages/Years/Years";
 import Direction from "./pages/Direction/Direction";
 import Figma_second from "./pages/Theme/Figma/Second/Second";
+import Figma_third from "./pages/Theme/Figma/third/third";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
@@ -29,6 +30,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
           <Route path="years" element={<Years />} />
           <Route path="direction" element={<Direction />} />
           <Route path="figma_second" element={<Figma_second />} />
+          <Route path="figma_third" element={<Figma_third />} />
         </Route>
       </Routes>
     </BrowserRouter>
