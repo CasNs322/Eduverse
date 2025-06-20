@@ -2,10 +2,11 @@ import Point_in_progress from "../../../../assets/points/point_in_progress.png";
 import Point_lock from "../../../../assets/points/point_lock.png";
 import Point_ready from "../../../../assets/points/point_ready.png";
 import Endpoint_lock from "../../../../assets/points/endpoint_lock.png";
+import Endpoint_in_progress from "../../../../assets/points/endpoint_in_progress.png";
 import "./Fifth.css";
 import FigmaData from "../../../../content.json";
-import Block1_img from "../../../../assets/content/Figma/third/1.png";
-import Block2_img from "../../../../assets/content/Figma/third/2.png";
+import Block1_img from "../../../../assets/content/Figma/fifth/1.png";
+import Block2_img from "../../../../assets/content/Figma/fifth/2.png";
 import { Link } from "react-router";
 const figmaDataSecond = FigmaData.lessons.figma.fifth;
 
@@ -24,13 +25,13 @@ export default function Figma_fifth() {
               <img src={Point_ready} />
             </div>
             <div className="point">
-              <img src={Point_in_progress} />
+              <img src={Point_ready} />
             </div>
             <div className="point">
-              <img src={Point_lock} />
+              <img src={Point_ready} />
             </div>
             <div className="point">
-              <img src={Endpoint_lock} />
+              <img src={Endpoint_in_progress} />
             </div>
           </div>
           <div className="themes">
@@ -68,14 +69,6 @@ export default function Figma_fifth() {
           </div>
         </div>
         <div className="block1">
-          <div
-            className="block2-text"
-            dangerouslySetInnerHTML={{
-              __html: figmaDataSecond.paragraf_2,
-            }}
-          ></div>
-        </div>
-        <div className="block1">
           <div className="block1-">
             <img src={Block2_img} className="block1-img" />
           </div>
@@ -86,10 +79,17 @@ export default function Figma_fifth() {
             }}
           ></div>
         </div>
-        <div className="buttons">
-          <Link to="../figma_fourth">
-            <div className="button-next">Далее</div>
-          </Link>
+        <div className="back-next">
+          <div className="buttons">
+            <Link to="../figma_fourth">
+              <div className="button-back">Назад</div>
+            </Link>
+          </div>
+          <div className="buttons">
+            <Link to="../frontend_first">
+              <div className="button-next">Далее</div>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

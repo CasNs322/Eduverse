@@ -120,5 +120,28 @@
     align-items: center;
     justify-content: center;
     margin-top: 34px;
-    margin-left: 1300px;
+    margin-left: 1170px;
+}
+
+.button-back {
+    background-color: #00000000;
+    border: black solid 3px;
+    border-radius: 1000px;
+    color: #000000;
+    font-size: 36px;
+    font-weight: bold;
+    min-width: 150px;
+    min-height: 86px;
+    max-width: 150px;
+    max-height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.back-next {
+    display: flex;
+    min-width: 1470px;
+    max-width: 1470px;
 }

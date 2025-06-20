@@ -42,6 +42,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .theme {
   font-size: 16px;
   margin-bottom: 7px;
@@ -119,5 +120,5 @@
   align-items: center;
   justify-content: center;
   margin-top: 34px;
-  margin-left: 1300px;
+  margin-left: 1170px;
 }

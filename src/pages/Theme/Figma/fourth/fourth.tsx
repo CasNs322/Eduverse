@@ -4,8 +4,8 @@ import Point_ready from "../../../../assets/points/point_ready.png";
 import Endpoint_lock from "../../../../assets/points/endpoint_lock.png";
 import "./fourth.css";
 import FigmaData from "../../../../content.json";
-import Block1_img from "../../../../assets/content/Figma/third/1.png";
-import Block2_img from "../../../../assets/content/Figma/third/2.png";
+import Block1_img from "../../../../assets/content/Figma/fourth/1.jpg";
+import Block2_img from "../../../../assets/content/Figma/fourth/2.jpg";
 import { Link } from "react-router";
 const figmaDataSecond = FigmaData.lessons.figma.fourth;
 
